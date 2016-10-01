@@ -1,0 +1,18 @@
+[package]
+name = "tokio-netstring"
+version = "0.1.0"
+authors = ["Ignacio Corderi <icorderi@msn.com>"]
+description = "Netstring frames for tokio"
+keywords = ["tokio", "netstring"]
+
+[dependencies]
+futures = "0.1"
+bytes = "0.4"
+tokio-io = "0.1"
+
+[dev-dependencies]
+serde = "0.9"
+serde_json = "0.9"
+tokio-core = "0.1"
+tokio-serde = { git = "https://github.com/carllerche/tokio-serde" }
+tokio-serde-json = { git = "https://github.com/carllerche/tokio-serde-json" }
